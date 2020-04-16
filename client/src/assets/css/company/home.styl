@@ -1,0 +1,70 @@
+@import '~@/assets/css/varibles.styl';
+.home-info
+    display flex
+    height 130px
+    border-radius 12px
+    overflow hidden
+    .home-info-left
+        flex-basis 125px
+        height 130px
+        line-height 130px
+        background $primaryColor
+        text-align center
+        .info-left-icon
+            font-size 35px
+            color #fff
+    .home-info-right
+        flex 1        
+        background #fff
+        box-sizing border-box
+        padding 20px
+        .list
+            display flex
+            flex-wrap wrap
+            align-content center
+            height 100%
+            li
+                width 50%
+                line-height 2
+                color $middleColor
+                cursor pointer
+.company-info
+    overflow hidden
+    margin-bottom 20px
+    .company-img
+        float left 
+        width 110px
+        height 110px
+        .img-box
+            display block
+            height 100%
+            width 100%
+    .company-name
+        margin-left 155px
+.notice
+    dt
+        background #f5f7fb
+        line-height 2.5
+        padding-left 20px
+        color $darkColor
+        font-weight 500
+        font-size 18px
+    dd  
+        box-sizing border-box
+        width 100%
+        display flex
+        color $middleColor
+        line-height 2
+        padding-left 10px
+        cursor pointer
+        text-align left
+        p 
+            flex 1
+            width 0
+            overflow hidden
+            text-overflow ellipsis
+            white-space nowrap
+        span
+            width 99px
+            float right
+            color #999 
